@@ -41,18 +41,18 @@ body {
   color: #c0c0c0;
 }
 
-.main {
-  flex: 1;
+.content {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 10px;
 }
 
 .img-container {
-  width: 100%;
-  max-width: 400px;
-  max-height: 400px;
+  width: 50%;
+  margin-right: 10px;
 }
 
 .img-container img {
@@ -62,4 +62,6 @@ body {
 
 #right-text {
   font-size: 2em;
+  width: 50%;
+  text-align: left;
 }
