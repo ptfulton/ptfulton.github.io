@@ -3,7 +3,7 @@ body {
 }
 #left-img {
   flex: 1;
-  background: url(left-img.png) no-repeat center center/cover;
+  background: url(profile.png) no-repeat center center/cover;
 }
 #right-text {
   flex: 1;
