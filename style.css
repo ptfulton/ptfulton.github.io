@@ -1,10 +1,56 @@
 body {
-  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #292929;
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.menu li a:hover {
+  color: #c0c0c0;
+}
+
+.main {
+  display: flex;
+  margin-top: 80px;
+}
+
 #left-img {
   flex: 1;
-  background: url(Profile.png) no-repeat center center/cover;
+  background: url(img/left-img.png) no-repeat center center/cover;
 }
+
 #right-text {
   flex: 1;
   display: flex;
