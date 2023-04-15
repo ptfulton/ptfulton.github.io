@@ -64,12 +64,12 @@ body {
 }
 
 .img-container {
-  width: 50%;
+  width: 33%;
   margin-right: 10px;
 }
 
 .img-container img {
-  width: 75%;
+  width: 90%;
   height: auto;
 }
 
