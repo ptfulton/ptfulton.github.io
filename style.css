@@ -33,6 +33,8 @@ body {
   padding: 10px;
   margin: 10px;
   display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .menu li:not(:last-child) {
