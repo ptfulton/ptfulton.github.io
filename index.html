@@ -3,6 +3,20 @@
   <head>
     <title>Hello World Page</title>
     <link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+  $(document).ready(function() {
+    $('a[href^="#"]').on('click', function(event) {
+      var target = $(this.getAttribute('href'));
+      if( target.length ) {
+          event.preventDefault();
+          $('html, body').stop().animate({
+              scrollTop: target.offset().top
+          }, 1000);
+      }
+    });
+  });
+</script>
   </head>
   <body>
     <div class="menu">
